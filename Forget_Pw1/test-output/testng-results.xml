@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86163" started-at="2020-11-16T12:53:50Z" finished-at="2020-11-16T12:55:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="86163" started-at="2020-11-16T12:53:50Z" finished-at="2020-11-16T12:55:16Z">
+      <class name="TestNGTest.Rest_password">
+        <test-method status="PASS" signature="VerifyFrames()[pri:0, instance:TestNGTest.Rest_password@cb5822]" name="VerifyFrames" is-config="true" duration-ms="5845" started-at="2020-11-16T12:53:50Z" finished-at="2020-11-16T12:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFrames -->
+        <test-method status="PASS" signature="SendResetPasswordLink()[pri:1, instance:TestNGTest.Rest_password@cb5822]" name="SendResetPasswordLink" duration-ms="25062" started-at="2020-11-16T12:53:56Z" finished-at="2020-11-16T12:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendResetPasswordLink -->
+        <test-method status="PASS" signature="LoginToGmail()[pri:2, instance:TestNGTest.Rest_password@cb5822]" name="LoginToGmail" duration-ms="26381" started-at="2020-11-16T12:54:21Z" finished-at="2020-11-16T12:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToGmail -->
+        <test-method status="PASS" signature="CheckNewPasswordValidation()[pri:3, instance:TestNGTest.Rest_password@cb5822]" name="CheckNewPasswordValidation" duration-ms="12506" started-at="2020-11-16T12:54:48Z" finished-at="2020-11-16T12:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckNewPasswordValidation -->
+        <test-method status="PASS" signature="CheckConfirmPasswordValidation()[pri:4, instance:TestNGTest.Rest_password@cb5822]" name="CheckConfirmPasswordValidation" duration-ms="16353" started-at="2020-11-16T12:55:00Z" finished-at="2020-11-16T12:55:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckConfirmPasswordValidation -->
+      </class> <!-- TestNGTest.Rest_password -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
